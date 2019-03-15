@@ -1,0 +1,73 @@
+{
+  "status": "ok",
+  "data": {
+    "aqi": 1000,
+    "idx": 4693,
+    "attributions": [
+      {
+        "url": "http://aqmthai.com/",
+        "name": "Division of Air Quality Data, Air Quality and Noise Management Bureau, Pollution Control Department."
+      },
+      {
+        "url": "http://worldweather.wmo.int",
+        "name": "World Meteorological Organization - surface synoptic observations (WMO-SYNOP)"
+      },
+      {
+        "url": "https://waqi.info/",
+        "name": "World Air Quality Index Project"
+      }
+    ],
+    "city": {
+      "geo": [
+        14.040299305494,
+        100.60873959621
+      ],
+      "name": "Bangkok University Rangsit Campus, Pathum Thani, Thailand (มหาวิทยาลัยกรุงเทพ วิทยาเขตรังสิต)",
+      "url": "https://aqicn.org/city/thailand/pathum-thani/bangkok-university-rangsit-campus"
+    },
+    "dominentpol": "pm25",
+    "iaqi": {
+      "co": {
+        "v": 0.1
+      },
+      "h": {
+        "v": 83.54
+      },
+      "no2": {
+        "v": 15
+      },
+      "o3": {
+        "v": 0.8
+      },
+      "p": {
+        "v": 1010.77
+      },
+      "pm10": {
+        "v": 29
+      },
+      "pm25": {
+        "v": 63
+      },
+      "so2": {
+        "v": 0.6
+      },
+      "t": {
+        "v": 29.53
+      },
+      "w": {
+        "v": 0.29
+      },
+      "wg": {
+        "v": 3.3
+      }
+    },
+    "time": {
+      "s": "2019-03-14 22:00:00",
+      "tz": "+07:00",
+      "v": 1552600800
+    },
+    "debug": {
+      "sync": "2019-03-15T01:22:41+09:00"
+    }
+  }
+}

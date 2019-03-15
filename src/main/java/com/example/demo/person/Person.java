@@ -11,7 +11,7 @@ public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String id;
+    private long id;
     private String firstName;
     private String lastName;
 
@@ -22,7 +22,7 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
@@ -52,7 +52,7 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
