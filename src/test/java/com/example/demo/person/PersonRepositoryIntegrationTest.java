@@ -1,7 +1,10 @@
 package com.example.demo.person;
 
+import com.example.demo.group.E2ETests;
+import com.example.demo.group.IntegrationTests;
 import org.junit.After;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
@@ -14,6 +17,7 @@ import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
+@Category(IntegrationTests.class)
 @RunWith(SpringRunner.class)
 @DataJpaTest
 public class PersonRepositoryIntegrationTest {

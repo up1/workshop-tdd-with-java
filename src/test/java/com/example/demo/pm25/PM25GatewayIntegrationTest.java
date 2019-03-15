@@ -1,9 +1,11 @@
 package com.example.demo.pm25;
 
 import com.example.demo.FileLoader;
+import com.example.demo.group.IntegrationTests;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,6 +19,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.springframework.http.HttpHeaders.CONTENT_TYPE;
 
+@Category(IntegrationTests.class)
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PM25GatewayIntegrationTest {

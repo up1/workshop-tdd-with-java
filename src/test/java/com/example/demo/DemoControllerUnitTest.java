@@ -1,10 +1,12 @@
 package com.example.demo;
 
+import com.example.demo.group.UnitTests;
 import com.example.demo.person.Person;
 import com.example.demo.person.PersonRepository;
 import com.example.demo.pm25.PM25Gateway;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.mockito.Mock;
 
 import java.util.Optional;
@@ -15,6 +17,7 @@ import static org.mockito.BDDMockito.anyString;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.MockitoAnnotations.initMocks;
 
+@Category(UnitTests.class)
 public class DemoControllerUnitTest {
 
     private DemoController subject;

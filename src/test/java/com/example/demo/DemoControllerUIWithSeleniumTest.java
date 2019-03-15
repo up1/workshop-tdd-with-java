@@ -1,10 +1,12 @@
 package com.example.demo;
 
+import com.example.demo.group.E2ETests;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +19,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.*;
 
+@Category(E2ETests.class)
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class DemoControllerUIWithSeleniumTest {

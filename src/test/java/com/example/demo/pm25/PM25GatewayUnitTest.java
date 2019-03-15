@@ -1,7 +1,9 @@
 package com.example.demo.pm25;
 
+import com.example.demo.group.UnitTests;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -15,6 +17,7 @@ import static org.hamcrest.core.Is.is;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.MockitoAnnotations.initMocks;
 
+@Category(UnitTests.class)
 @RunWith(SpringRunner.class)
 public class PM25GatewayUnitTest {
 
