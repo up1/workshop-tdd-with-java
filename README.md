@@ -1,5 +1,11 @@
 # workshop-tdd-with-java
 
+## Testing
+* Unit
+* Integration
+* Contract
+* End-to-End
+
 ## Start server
 ```
 $mvnw spring-boot:run
