@@ -1,5 +1,4 @@
 # workshop-tdd-with-java
-
 ## Testing
 * Unit
 * Integration
